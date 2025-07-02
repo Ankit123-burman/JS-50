@@ -1,0 +1,25 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(69, 5, 129);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(16, 118, 118);
+    height: 20%;
+    width: 10%;
+}
+button{
+    height: 40px;
+    border-radius: 20px;
+    background-color: blue;
+}

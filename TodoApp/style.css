@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    
+}
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* stacks children vertically */
+    align-items: center;     /* center horizontally */
+    justify-content: flex-start; /* start vertically (top) */
+    background-color: gray;
+    padding-top: 70px;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 10%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: greenyellow;
+    border-radius: 20px;
+   
+}
+input{
+    width: 60%;
+    height: 60%;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 20px;
+}
+.Add{
+    width: 20%;
+    height: 60%;
+    border-radius: 20px;
+}
+
+
+.Task {
+    display: flex;
+    margin: 10px auto;
+    padding: 12px 20px;
+    background: #333;
+    color: #fff;
+    align-items: center;
+    justify-content: space-around;
+    border-left: 4px solid limegreen;
+    border-radius: 8px;
+    font-family: sans-serif;
+}
+.remBtn{
+    width: 100%;
+    height: 90%;
+}
